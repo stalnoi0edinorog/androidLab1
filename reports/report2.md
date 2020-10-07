@@ -51,7 +51,7 @@ onPause() -> onStop() -> onSaveInstanceState() -> onDestroy() -> onCreate() -> o
 - en-normal-notouch
 - en-rCA-notlong
 
-** Удаляем язык en, т.к. в конфигурации стоит fr **
+**Удаляем язык en, т.к. в конфигурации стоит fr**
 - (default)
 - round-port-watch-ldpi-v25
 - rFR-watch-dpad
@@ -64,7 +64,7 @@ onPause() -> onStop() -> onSaveInstanceState() -> onDestroy() -> onCreate() -> o
 - ~~en-normal-notouch~~
 - ~~en-rCA-notlong~~
 
-** Исключаем строчки, в которых указан только регион **
+**Исключаем строчки, в которых указан только регион**
 - (default)
 - round-port-watch-ldpi-v25
 - ~~rFR-watch-dpad~~
@@ -73,16 +73,16 @@ onPause() -> onStop() -> onSaveInstanceState() -> onDestroy() -> onCreate() -> o
 - ~~rCA-xlarge-notround-television-night-nokeys-wheel-v25~~
 - notround-nokeys
 
-** Исключаем круглый экран, т.к. в конфиг-ии прямоугольный
+**Исключаем круглый экран, т.к. в конфиг-ии прямоугольный**
 - (default)
 - ~~round-port-watch-ldpi-v25~~
 - notround-nokeys
 
-** Исключаем прямоугольный экран, т.к. устройство должно иметь qwerty-клавиатуру
+**Исключаем прямоугольный экран, т.к. устройство должно иметь qwerty-клавиатуру**
 - (default)
 - ~~notround-nokeys~~
 
-** Итог: default **
+**Итог: default**
 
 
 ### Задача 4. Сохранение состояние Activity.  
