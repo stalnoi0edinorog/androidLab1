@@ -45,6 +45,40 @@
 - en-normal-notouch
 - en-rCA-notlong
 
+** Удаляем язык en, т.к. в конфигурации стоит fr **
+- (default)
+- round-port-watch-ldpi-v25
+- rFR-watch-dpad
+- long-notround-night
+- rFR-notround-notnight-xhdpi-v25
+- rCA-xlarge-notround-television-night-nokeys-wheel-v25
+- ~~en-round-vrheadset-nokeys
+- ~~en-long-port-nodpi-trackball
+- notround-nokeys
+- ~~en-normal-notouch
+- ~~en-rCA-notlong
+
+** Исключаем строчки, в которых указан только регион **
+- (default)
+- round-port-watch-ldpi-v25
+- ~~rFR-watch-dpad
+- long-notround-night
+- ~~rFR-notround-notnight-xhdpi-v25
+- ~~rCA-xlarge-notround-television-night-nokeys-wheel-v25
+- notround-nokeys
+
+** Исключаем круглый экран, т.к. в конфиг-ии прямоугольный
+- (default)
+- ~~round-port-watch-ldpi-v25
+- notround-nokeys
+
+** Исключаем прямоугольный экран, т.к. устройство должно иметь qwerty-клавиатуру
+- (default)
+- ~~notround-nokeys
+
+** Итог: default
+
+
 ### Задача 4. Сохранение состояние Activity.  
 Студент написал приложение: [continuewatch](continuewatch). Это приложение [по заданию](continuewatch/README.md) должно считать, сколько секунд пользователь провел в этом приложении.  
 
